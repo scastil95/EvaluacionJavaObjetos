@@ -48,7 +48,7 @@ public class materia extends estudianteClasePadre {
 
     @Override
     public String toString() {
-        return "materia [materia=" + materia + ", profesor=" + profesor + ", numNotas=" + numNotas + "]";
+        return super.toString() + "materia [materia=" + materia + ", profesor=" + profesor + ", numNotas=" + numNotas + "]";
     }
     
 }
