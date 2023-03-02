@@ -147,7 +147,6 @@ public class javaEvaluacionObjetos {
 				System.out.println("---------------------------------------------------------------------------------------");
 				System.out.println("                                  0 para salir del menú                                ");
 				System.out.println("---------------------------------------------------------------------------------------");
-
 				System.out.print("                                   Seleccione su opción:");
 				System.out.println();
 					opcion = teclado.nextInt();
@@ -165,7 +164,7 @@ public class javaEvaluacionObjetos {
 			} else if (opcion == 2) {
 				for (String i : alumnos.keySet()) {
 					Boolean aprobar = aprobado(alumnos.get(i), notaAprobatoria);
-					// es lo mismo que poner if (aprobar == true)
+				
 					if (aprobar) {
 						System.out.println("El alumno/a " + i + " está aprobado");
 					} else {
